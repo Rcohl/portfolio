@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="ProjetGoblin.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goblin</title>
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--link boxicons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!--link remixicon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--image d'onglet-->
+    <link rel="shortcut icon" href="goblins2-home.png" />
+  </head>
+
+  <body>
+    <header>
+      <!-- barre de navigation avec logo de retour à l'accueil-->
+      <a class="logoAccueil" href="ProjetGoblin.html">
+        <img src="Clash-of-Clans-Transparent-Background.png"
+      /></a>
+
+      <nav>
+        <!--paramètre menu burger-->
+        <label class="burger" for="toggle">☰</label>
+        <input type="checkbox" id="toggle" />
+        <div class="navbar">
+          <a href="#">Accueil</a>
+          <a href="#">A propos</a>
+          <a href="#">Clans</a>
+          <a href="#">Hôtel de ville</a>
+          <a href="#">Troupes</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--corps de la page d'accueil-->
+      <div class="textePrincipal">
+        <h5>#Tendance</h5>
+        <h4>Dev Web Lens Production</h4>
+        <h1
+          class="TitreGoblin"
+          style="font-family: 'Permanent Marker', cursive"
+        >
+          GOBLINS
+        </h1>
+        <p>Rejoignez des millions de joueurs dans le monde entier en</p>
+        <p>construisant votre village,</p>
+        <p>Créez un clan et terminez en un Epic Clan Wars !!</p>
+        <!--image du goblin-->
+        <div>
+          <img class="imageGoblin" src="goblins2-home.png" />
+        </div>
+        <!--class avec les boutons-->
+        <div class="boutons">
+          <button
+            onclick="window.location.href = 'https://supercell.com/en/';"
+            class="compare"
+            type="button"
+          >
+            COMPARE
+          </button>
+          <button
+            onclick="window.location.href = 'https://www.youtube.com/watch?v=ZjhFV-FCBj0';"
+            class="gameplay"
+            type="button"
+          >
+            <i class="ri-play-mini-fill"></i> WATCH GAMEPLAY
+          </button>
+        </div>
+        <!--logos des réseaux sociaux sur le coté du corps-->
+        <div class="logos">
+          <p>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="ri-youtube-line"></i
+            ></a>
+          </p>
+          <p>
+            <a href="#" target="_blank"><i class="ri-basketball-line"></i></a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+html {
+  background: linear-gradient(
+    245.59deg,
+    #4d9559 0%,
+    #38703d 28.53%,
+    #133917 75.52%
+  );
+}
+
+/* style des boutons*/
+.compare {
+  background-color: #4d9559;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 30px;
+  border-color: transparent;
+  border: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.compare:hover {
+  background-color: transparent;
+}
+
+.gameplay {
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+  border-color: #ffffff;
+  border-width: 1px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Poppins;
+}
+
+/* style de barre de navigation*/
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* disposition du logo de retour à l'accueil*/
+.logoAccueil {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: flex-start;
+  margin-left: 35px;
+}
+
+/* style du texte principal*/
+.textePrincipal {
+  display: block;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-top: 90px;
+  color: #ffffff;
+  font-family: Poppins;
+}
+
+/* disposition de l'image du goblin*/
+.imageGoblin {
+  display: flex;
+  margin-left: 485px;
+  margin-right: auto;
+  margin-top: -420px;
+  margin-bottom: 300px;
+  width: 600px;
+  height: auto;
+}
+
+/* disposition du h1*/
+.textePrincipal > .TitreGoblin {
+  font-size: 90px;
+  margin-top: -40px;
+  margin-bottom: auto;
+}
+
+/* disposition des boutons*/
+.textePrincipal > .boutons {
+  display: block;
+  align-content: flex-start;
+  margin-top: -320px;
+  color: transparent;
+}
+
+/* disposition des logos réseaux*/
+.textePrincipal > .logos {
+  display: block;
+  align-content: flex-start;
+  margin-left: -80px;
+  margin-bottom: 300px;
+  margin-top: -195px;
+  align-content: space-around;
+  font-size: 22px;
+}
+
+/* styles des logos réseaux*/
+.logos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* menu burger*/
+label,
+#toggle {
+  display: none;
+}
+
+@media screen and (max-width: 1190px) {
+  html {
+    background: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    height: 5px;
+    margin-top: 0;
+    padding: 5px;
+  }
+
+  nav .navbar {
+    display: none;
+    flex-direction: column;
+    background: transparent;
+  }
+
+  nav .navbar a {
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -10px;
+  }
+
+  label {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: -90px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 40px;
+    transition: 0.3s;
+  }
+
+  #toggle:checked + .navbar {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 0px;
+    z-index: 9999;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .TitreGoblin {
+    display: block;
+  }
+
+  .textePrincipal {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    padding: 0%;
+  }
+
+  .logos {
+    display: none;
+    position: relative;
+    margin-left: -999em;
+  }
+
+  .boutons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999;
+  }
+
+  .imageGoblin {
+    display: flex;
+    position: relative;
+    margin: 70px 70px 45px;
+    width: 300px;
+    height: auto;
+    transition: 0.3s;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+  }
+}
