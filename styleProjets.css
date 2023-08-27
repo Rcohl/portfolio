@@ -98,9 +98,55 @@ a:hover {
 }
 
 img {
-  margin: 20px;
+  margin: 35px;
 }
 
 img:hover {
-  scale: 8;
+  scale: 3;
+  transition: 0.5s;
 }
+
+/* #goblin-project {
+  visibility: hidden;
+  width: 248px;
+  margin: 10px auto 0;
+  opacity: 0;
+  transition: 0.6s;
+  transform: translateX(-200px);
+}
+
+#personal-project1 {
+  visibility: hidden;
+  width: 248px;
+  margin: 10px auto 0;
+  opacity: 0;
+  transition: 0.6s;
+  transform: translateX(-200px);
+}
+
+#personal-project2 {
+  visibility: hidden;
+  width: 248px;
+  margin: 10px auto 0;
+  opacity: 0;
+  transition: 0.6s;
+  transform: translateX(-1px);
+}
+
+.show-goblin-project {
+  visibility: hidden;
+  /* opacity: 1; */
+  /* transform: translateX(0);
+}
+
+.show-personal-project1 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.show-personal-project2 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(1);
+} */ */
